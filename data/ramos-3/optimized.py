@@ -1,4 +1,4 @@
-import os, json, re
+import os, json, re, io
 file_list = os.listdir('media')
 
 from pprint import pprint
@@ -40,13 +40,13 @@ for folder in file_list[ib:ie]:
         print (folder + " already processed")
     else:
         try:
-            fin = open('media/'+folder+'/'+folder+'.json', 'r')
+            fin = io.open('media/'+folder+'/'+folder+'.json', 'r', encoding='utf-8')
             data = json.load(fin)
             captions = []
             for post in data:
                 if post['caption'] is not None:
-                    captions.append(stemmer.stem(ep.sub(r'', post['caption']['text']).encode('utf-8')))
-                    captions = [snowball.stem(caption) for caption in captions]
+                    captions.append(snowball.stem(ep.sub(r'', post['caption']['text'])))
+                    captions = [stemmer.stem(caption) for caption in captions]
             if captions:
                 user = str(folder)
                 fout = open('corpus/'+user, 'w')
