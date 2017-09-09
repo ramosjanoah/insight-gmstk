@@ -1,0 +1,300 @@
+2017-09-08 22:26:42,617 - instagram_scraper.app - ERROR - Failed to get media for rioefebrianto
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User rioefebrianto is private
+2017-09-08 22:27:00,633 - instagram_scraper.app - ERROR - Failed to get media for lpierrey
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User lpierrey is private
+2017-09-08 22:27:10,037 - instagram_scraper.app - WARNING - Media at [u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/13166899_562584250567890_1819585159_n.jpg'] generated an exception: [Errno 2] No such file or directory: './jonathannababan08/13166899_562584250567890_1819585159_n.jpg'
+2017-09-08 22:27:10,101 - instagram_scraper.app - WARNING - Media at [u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/e35/1598832_1086079104775977_1446718794_n.jpg'] generated an exception: [Errno 2] No such file or directory: './jonathannababan08/1598832_1086079104775977_1446718794_n.jpg'
+2017-09-08 22:27:10,261 - instagram_scraper.app - WARNING - Media at [u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/10011220_1513633838932155_1691038680_n.jpg'] generated an exception: [Errno 2] No such file or directory: './jonathannababan08/10011220_1513633838932155_1691038680_n.jpg'
+2017-09-08 22:27:10,536 - instagram_scraper.app - WARNING - Media at [u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/20837817_1211152412323268_4295149960959098880_n.jpg', u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/20766119_346629879097676_6046906252997427200_n.jpg', u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/20759928_223432931517322_8433965517525483520_n.jpg', u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/20688613_1414373735347572_2371511796449148928_n.jpg'] generated an exception: [Errno 2] No such file or directory: './jonathannababan08/20759928_223432931517322_8433965517525483520_n.jpg'
+2017-09-08 22:27:10,758 - instagram_scraper.app - WARNING - Media at [u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/12950312_195523794173219_191870400_n.jpg'] generated an exception: [Errno 2] No such file or directory: './jonathannababan08/12950312_195523794173219_191870400_n.jpg'
+2017-09-08 22:27:14,633 - instagram_scraper.app - WARNING - Media at [u'https://scontent-sin6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/14026490_307958769559222_836027719_n.jpg'] generated an exception: [Errno 2] No such file or directory: './jonathannababan08/14026490_307958769559222_836027719_n.jpg'
+2017-09-08 22:31:32,254 - instagram_scraper.app - ERROR - Failed to get media for santy_ngl
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User santy_ngl is private
+2017-09-08 22:31:38,284 - instagram_scraper.app - ERROR - Failed to get media for followers.freely1
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User followers.freely1 is private
+2017-09-08 22:36:01,837 - instagram_scraper.app - ERROR - Failed to get media for nw.clothing
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User nw.clothing is private
+2017-09-08 22:42:07,248 - instagram_scraper.app - ERROR - Failed to get media for moncase_
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User moncase_ is private
+2017-09-08 22:42:43,908 - instagram_scraper.app - ERROR - Failed to get media for ferynobita
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User ferynobita is private
+2017-09-08 22:50:58,372 - instagram_scraper.app - ERROR - Failed to get media for erickmoralex4
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User erickmoralex4 is private
+2017-09-08 22:56:20,557 - instagram_scraper.app - ERROR - Failed to get media for mariaasie
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User mariaasie is private
+2017-09-08 22:56:31,852 - instagram_scraper.app - ERROR - Failed to get media for yogih_suharta
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User yogih_suharta is private
+2017-09-08 22:56:33,100 - instagram_scraper.app - ERROR - Failed to get media for inspirationists
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User inspirationists is private
+2017-09-08 23:10:04,701 - instagram_scraper.app - ERROR - Failed to get media for marseliaainun
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User marseliaainun is private
+2017-09-08 23:10:06,151 - instagram_scraper.app - ERROR - Failed to get media for alyanadiya
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User alyanadiya is private
+2017-09-08 23:10:07,493 - instagram_scraper.app - ERROR - Failed to get media for rahmawati.dian22
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User rahmawati.dian22 is private
+2017-09-08 23:11:18,352 - instagram_scraper.app - ERROR - Failed to get media for siska.rsiburian
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User siska.rsiburian is private
+2017-09-08 23:11:44,738 - instagram_scraper.app - ERROR - Failed to get media for dianyntasr
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User dianyntasr is private
+2017-09-08 23:11:46,103 - instagram_scraper.app - ERROR - Failed to get media for elsaprimsa
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User elsaprimsa is private
+2017-09-08 23:13:13,598 - instagram_scraper.app - ERROR - Failed to get media for restidwi869
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User restidwi869 is private
+2017-09-08 23:22:45,693 - instagram_scraper.app - ERROR - Failed to get media for chania_kusumawardhani
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User chania_kusumawardhani is private
+2017-09-08 23:23:07,542 - instagram_scraper.app - ERROR - Failed to get media for indra_riyanto_85
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User indra_riyanto_85 is private
+2017-09-08 23:23:20,620 - instagram_scraper.app - ERROR - Failed to get media for janenatashangela
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User janenatashangela is private
+2017-09-08 23:24:21,606 - instagram_scraper.app - ERROR - Failed to get media for kaleb_ds
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User kaleb_ds is private
+2017-09-08 23:28:21,500 - instagram_scraper.app - ERROR - Failed to get media for talitacitanatama
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User talitacitanatama is private
+2017-09-08 23:29:56,197 - instagram_scraper.app - ERROR - Failed to get media for aburizalkatab
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User aburizalkatab is private
+2017-09-08 23:30:04,648 - instagram_scraper.app - ERROR - Failed to get media for nata_sheila
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User nata_sheila is private
+2017-09-08 23:30:21,042 - instagram_scraper.app - ERROR - Failed to get media for fanziriza
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User fanziriza is private
+2017-09-08 23:35:33,404 - instagram_scraper.app - ERROR - Failed to get media for anggiubed10
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User anggiubed10 is private
+2017-09-08 23:35:52,154 - instagram_scraper.app - ERROR - Failed to get media for almiraahiranii
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User almiraahiranii is private
+2017-09-08 23:36:08,985 - instagram_scraper.app - ERROR - Failed to get media for seniafatmak
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User seniafatmak is private
+2017-09-08 23:36:17,391 - instagram_scraper.app - ERROR - Failed to get media for yuznihtoh
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User yuznihtoh is private
+2017-09-08 23:36:18,663 - instagram_scraper.app - ERROR - Failed to get media for raemilda
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User raemilda is private
+2017-09-08 23:37:00,969 - instagram_scraper.app - ERROR - Failed to get media for sitihardiyantihutasoit
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User sitihardiyantihutasoit is private
+2017-09-08 23:37:24,355 - instagram_scraper.app - ERROR - Failed to get media for anrielsofwan
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User anrielsofwan is private
+2017-09-08 23:37:25,654 - instagram_scraper.app - ERROR - Failed to get media for septhyapuspita
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User septhyapuspita is private
+2017-09-08 23:38:33,640 - instagram_scraper.app - ERROR - Failed to get media for faldarisliaaa
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User faldarisliaaa is private
+2017-09-08 23:38:40,249 - instagram_scraper.app - ERROR - Failed to get media for ferianazmi
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User ferianazmi is private
+2017-09-08 23:39:55,654 - instagram_scraper.app - ERROR - Failed to get media for bebymahira
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User bebymahira is private
+2017-09-08 23:43:54,083 - instagram_scraper.app - ERROR - Failed to get media for eliezer_kurnia
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User eliezer_kurnia is private
+2017-09-08 23:44:00,585 - instagram_scraper.app - ERROR - Failed to get media for herpinlak
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User herpinlak is private
+2017-09-08 23:44:14,930 - instagram_scraper.app - ERROR - Failed to get media for finkaesh
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User finkaesh is private
+2017-09-08 23:44:52,212 - instagram_scraper.app - ERROR - Failed to get media for yuliagstinaa
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User yuliagstinaa is private
+2017-09-09 00:00:32,017 - instagram_scraper.app - ERROR - Failed to get media for marksepti_pie111
+Traceback (most recent call last):
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 428, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "/home/joshua/miniconda2/lib/python2.7/site-packages/instagram_scraper/app.py", line 455, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User marksepti_pie111 is private
