@@ -2,6 +2,7 @@ import os, json, re
 file_list = os.listdir('media')
 
 from pprint import pprint
+import nltk
 from nltk import word_tokenize
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
