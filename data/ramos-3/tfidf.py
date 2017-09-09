@@ -19,9 +19,29 @@ tfidf_matrix = tfidf.fit_transform(corpus)
 feature_names = tfidf.get_feature_names()
 dense = tfidf_matrix.todense()
 
-d1 = dense[0].tolist()[0]
-pair = []
-for idx, val in enumerate(d1):
-    if val > 0:
-        pair.append((val, idx))
+for idx in range(0, len(file_list)-1):
+    d = dense[idx].tolist()[0]
+    pair = []
+    for idx, val in enumerate(d):
+        if val > 0:
+            pair.append((val, idx))
+
+    spair = sorted(pair, reverse=True)
+    stopic = []
+    for (val, idx) in spair[:5]:
+        stopic.append(feature_names[idx])
+
+user = []
+data = {user}
+for idx in range(0, len(file_list)-1):
+    d = dense[1].tolist()[0]
+    pair = []
+    for idx, val in enumerate(d):
+        if val > 0:
+            pair.append((val, idx))
+
+    spair = sorted(pair, reverse=True)
+    stopic = []
+    for (val, idx) in spair[:5]:
+        stopic.append(feature_names[idx])
 

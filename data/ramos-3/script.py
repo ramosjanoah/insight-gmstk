@@ -34,7 +34,8 @@ except OSError:
 ib = int(input("Begin index: "))
 ie = int(input("End index: "))
 
-for folder in file_list[:10]:
+for folder in file_list[ib:ie]:
+    print ("Processing " + folder)
     try:
         fin = open('media'+'/'+folder+'/'+folder+'.json', 'r')
         data = json.load(fin)
@@ -55,36 +56,4 @@ for folder in file_list[:10]:
             fout.write(stream)
             fout.close()
     except IOError:
-        print ("private")
-
-
-"""
-for post in data:
-if post['caption'] is not None:
-a_list.append(post['caption']['text'])
-data[0]['caption']['text']
-
-folder = file_list[0]
-f = open('media'+'/'+folder+'/'+folder+'.json', 'r')
-data = json.load(f)
-captions = []
-for post in data:
-    if post['caption'] is not None:
-        captions.append(stemmer.stem(ep.sub(r'', post['caption']['text']).encode('utf-8')))
-        captions = [snowball.stem(caption) for caption in captions]
-words = []
-for caption in captions:
-    words = words + word_tokenize(caption)
-words = [word for word in words if word not in stoplist and not word.isdigit() and len(word)>1]
-
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-tfidf = TfidfVectorizer()
-
-tfidf_matrix = tfidf.fit_transform(corpus)
-feature_names = tfidf.get_feature_names()
-dense = tfidf_matrix.todense()
-
-d1 = dense[0].tolist()[0]
-pair = [(d, i) for d in d1
-"""
+        print (folder + " is private")
